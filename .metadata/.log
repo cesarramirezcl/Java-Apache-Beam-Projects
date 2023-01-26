@@ -2469,3 +2469,9 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://d
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-26 15:22:28.350
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-26 15:24:29.097
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2023-01-26 15:24:29.099
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!

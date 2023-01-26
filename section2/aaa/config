@@ -1,0 +1,8 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[branch "main"]
+	remote = https://github.com/cesarramirezcl/Java-Apache-Beam.git
+	merge = refs/heads/main

@@ -1,0 +1,34 @@
+package section3;
+
+import org.apache.beam.sdk.Pipeline;
+import org.apache.beam.sdk.io.TextIO;
+import org.apache.beam.sdk.transforms.MapElements;
+import org.apache.beam.sdk.transforms.SimpleFunction;
+import org.apache.beam.sdk.values.PCollection;
+
+class User extends SimpleFunction<String, String> {
+	
+	@Override
+	public String apply(String input) {
+	    String arr[] = input.split(",");
+	    if (arr[6].equals("1")) {
+	        arr[6] = "M";
+	    } else if (arr[6].equals("2")) {
+	        arr[6] = "F";
+	    }
+	    return String.join(",", arr);
+	}
+}
+
+public class MapElementesSimpleFunction {
+
+	public static void main(String[] args) {
+		Pipeline p = Pipeline.create();
+		PCollection<String> pUserList = p.apply(TextIO.read().from("/home/cesar/Desktop/user.csv"));
+		PCollection<String> pOutput = pUserList.apply(MapElements.via(new User()));
+		pOutput.apply(TextIO.write().to("user_output.csv").withNumShards(1));
+		p.run();
+		System.out.print("Done");
+	}
+
+}

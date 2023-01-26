@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.beam.model.pipeline.v1.RunnerApi.Pipeline"/>
+<fullyQualifiedTypeName name="org.apache.beam.sdk.Pipeline"/>
+<fullyQualifiedTypeName name="org.apache.beam.sdk.io.TextIO"/>
+<fullyQualifiedTypeName name="org.apache.beam.sdk.values.PCollection"/>
+<fullyQualifiedTypeName name="org.apache.beam.sdk.transforms.MapElements"/>
+<fullyQualifiedTypeName name="org.apache.beam.sdk.values.TypeDescriptors"/>
+</qualifiedTypeNameHistroy>

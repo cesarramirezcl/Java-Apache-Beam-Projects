@@ -1,0 +1,8 @@
+package m1aba;
+
+public class InstallTest {
+	
+	public static void main(String[] args) {
+		
+	}
+}

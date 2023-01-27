@@ -1566,3 +1566,53 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2023-01-27 14:36:37,218 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-01-27 14:36:37,219 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2023-01-27 14:36:37,219 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 15:41:08,227 [Worker-179] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.section4:section4:0.0.1-SNAPSHOT @ /home/cesar/Documents/eclipse-java-oxygen_3a_projects/section4/pom.xml.
+2023-01-27 15:41:08,279 [Worker-179] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /section4/src/main/java
+2023-01-27 15:41:08,279 [Worker-179] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /section4/src/main/resources
+2023-01-27 15:41:08,279 [Worker-179] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /section4/src/test/java
+2023-01-27 15:41:08,280 [Worker-179] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /section4/src/test/resources
+2023-01-27 15:41:08,673 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 15:41:08,673 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 15:41:08,674 [Worker-183] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 15:41:08,674 [Worker-183] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 15:41:55,041 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 15:41:55,042 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 15:41:55,042 [Worker-187] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 15:41:55,043 [Worker-187] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 15:49:32,392 [Worker-179] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.section4:section4:0.0.1-SNAPSHOT @ /home/cesar/Documents/eclipse-java-oxygen_3a_projects/section4/pom.xml.
+2023-01-27 15:49:33,814 [Worker-179] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/beam/beam-sdks-java-extensions-join-library/2.20.0/beam-sdks-java-extensions-join-library-2.20.0.pom
+2023-01-27 15:49:34,231 [Worker-179] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/beam/beam-sdks-java-extensions-join-library/2.20.0/beam-sdks-java-extensions-join-library-2.20.0.pom
+2023-01-27 15:49:34,428 [Worker-179] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/beam/beam-sdks-java-extensions-join-library/2.20.0/beam-sdks-java-extensions-join-library-2.20.0.jar
+2023-01-27 15:49:34,735 [Worker-179] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/beam/beam-sdks-java-extensions-join-library/2.20.0/beam-sdks-java-extensions-join-library-2.20.0.jar
+2023-01-27 15:49:34,807 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 15:49:34,808 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 15:49:34,808 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 15:49:34,809 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:38:45,100 [Worker-191] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:38:45,101 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:38:45,104 [Worker-191] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:38:45,105 [Worker-191] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:39:37,833 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @79610732ms to org.eclipse.jetty.util.log.Slf4jLog
+2023-01-27 17:39:37,929 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.4.8.v20171121, build timestamp: 2017-11-21T18:27:37-03:00, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2023-01-27 17:39:37,950 [Start Help Server] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+2023-01-27 17:39:37,950 [Start Help Server] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+2023-01-27 17:39:37,951 [Start Help Server] INFO  org.eclipse.jetty.server.session - Scavenging every 660000ms
+2023-01-27 17:39:37,969 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@1b9f2a30{/help,null,AVAILABLE}
+2023-01-27 17:39:37,983 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@4bc45958{HTTP/1.1,[http/1.1]}{127.0.0.1:39097}
+2023-01-27 17:39:37,986 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @79610886ms
+2023-01-27 17:46:32,003 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:46:32,003 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:46:32,004 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:46:32,004 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:46:44,355 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:46:44,356 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:46:44,357 [Worker-193] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:46:44,357 [Worker-193] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:47:12,085 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:47:12,086 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:47:12,087 [Worker-192] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:47:12,088 [Worker-192] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:47:49,795 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:47:49,796 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-01-27 17:47:49,801 [Worker-179] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2023-01-27 17:47:49,801 [Worker-179] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

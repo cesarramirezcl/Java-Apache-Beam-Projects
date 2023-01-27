@@ -1,0 +1,26 @@
+package section3;
+
+import org.apache.beam.sdk.Pipeline;
+import org.apache.beam.sdk.io.TextIO;
+import org.apache.beam.sdk.transforms.DoFn;
+import org.apache.beam.sdk.transforms.ParDo;
+import org.apache.beam.sdk.values.KV;
+import org.apache.beam.sdk.values.PCollection;
+
+public class SideInputExample {
+
+	public static void main(String[] args) {
+		Pipeline p = Pipeline.create();
+		PCollection<KV<String, String>> pReturn = p.apply(TextIO.read().from("/home/cesar/Desktop/return.csv"))
+			.apply(ParDo.of(new DoFn<String, KV<String, String>>(){
+				@ProcessElement
+				public void process(ProcessContext c) {
+					String arr[] = c.element().split(",");
+					c.output(KV.of(arr[0], arr[1]));
+				}
+			}));
+		p.run();
+
+	}
+
+}
